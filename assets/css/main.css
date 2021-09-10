@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 body{
     font-family: 'roboto', sans-serif;
+    background-image: url('https://1.bp.blogspot.com/-TQzzQGdASPk/U5rlaIfQY5I/AAAAAAAALJs/XQNZ3Ia51oQ/s2560/the-witcher-3-wild-hunt-landscape-1920x1080.jpg')
+}
+
+.fundo {
+    width: 70%;
+    padding-top: 30px;
+    margin: auto;
+    background-color: rgba(177, 103, 103, 0.568);
+    padding-bottom: 30px;
 }
 
 .navbar {
@@ -45,6 +54,7 @@ body{
 .row {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .skills {
@@ -52,7 +62,7 @@ body{
 }
 
 .skills img {
-    width: 150px;
+    width: 168px;
     height: auto;
 }
 
@@ -112,6 +122,42 @@ body{
     text-align: center;
 }
 
+
+.insta {
+    color: rgb(197, 42, 42);
+    font-size: 30px;
+}
+
+.face {
+    color: rgb(20, 114, 221);
+    font-size: 30px;
+}
+
+
+.ico {
+    width: 280px;
+    height: 280px;
+}
+
+#insta-icone {
+    width: 500px;
+    height: 500px;
+}
+
+
+.navbar #insta-icone {
+    margin: 15px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .ico {
+    margin: 15px;
+    display: flex;
+}
+
+
 .skill-bar-box{
     height:35px;
     margin-bottom: 30px;
@@ -146,11 +192,45 @@ body{
 }
 
 .skill-bar-box.js:hover .skill-bar {
-    width: 85%;
+    width: 15%;
 }
 
 .skill-bar p {
     margin: 0;
     margin-right: 20px;
     
+}
+
+#contato h1 {
+    text-align: center;
+}
+
+.icon {
+   height: 400px;
+   width: 400px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.row-item {
+    margin: 0px auto;
+}
+
+.row-content {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+#name {
+    height: 29px;
+}
+
+
+#message {
+    display: flex;
+    height: 50px;
+    width: 350px;
 }
