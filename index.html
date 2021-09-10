@@ -13,15 +13,17 @@
     <div class="navbar">
         <div class="historico-menu menu-item-div">
             <p class="menu-item">Historico</p>
+            <div class="line"></div>
         </div>
         <div class="habilidades-menu menu-item-div">
             <a href="#habilidades">
                 <p class="menu-item">Habilidades</p>
-            </a>
-           
+                <div class="line"></div>
+            </a>           
         </div>
         <div class="contato-menu menu-item-div">
             <p class="menu-item">Contato</p>
+            <div class="line"></div>
         </div>
     </div>
     <div class="hero-banner">
@@ -52,22 +54,45 @@
         </div>
         <div class="skills">
             <div class="row">
-                <div class="css">
+                <div class="css"> <p>CSS</p>
                     <img src="./assets/img/css.png" alt="CSS">
                 </div>
-                <div class="html">
+                <div class="html"> <p>HTML</p>
                     <img src="./assets/img/html.png" alt="HTML5">
                 </div>
-                <div class="js">
+                <div class="js"> <p>JS</p>
                     <img src="./assets/img/js.png" alt="JS">
                 </div>
             </div>
         </div>
         <div id="habilidades">
-            <div class="row">
                 <h2 class="habilidades-title">habilidades</h2>
-            </div>
+                <div class="skill-bar-box html">
+                    <p>html</p>
+                    <div class="skill-bar">
+                        <p>35%</p>
+                    </div>
+                </div>
+                <div class="skill-bar-box css">
+                    <p>css</p>
+                    <div class="skill-bar">
+                        <p>25%</p>
+                    </div>
+                </div>
+                <div class="skill-bar-box js">
+                    <p>js</p>
+                    <div class="skill-bar">
+                        <p>85%</p>
+                    </div>
+                </div>
+                <div class="forma-contact">
+                        <input type="text" id="name" placeholder="nome">
+                        <input type="text" id="email" placeholder="E-mail">
+                        <input type="text" placeholder="sua mensagem" id="message">
+                        <button id="send-contact">enviar</button>
+                </div>
         </div>
+        <script src="assets/js/script.js"></script>
 </body>
 
 </html>

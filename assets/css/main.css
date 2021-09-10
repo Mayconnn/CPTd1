@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 body{
     font-family: 'roboto', sans-serif;
 }
@@ -57,10 +57,100 @@ body{
 }
 
 .skills .css, .skills .js {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .navbar .menu-item-div a{
     text-decoration: none;
     color: #000;
+}
+
+.resume-tittle{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.resume-text{
+    line-height:27px;
+}
+
+.resume {
+    margin-bottom: 100px;
+}
+
+.line {
+    height: 2px;
+    background: #000;
+    width: 0;
+    transition: 0.5s;
+}
+.menu-item-div:hover .line {
+    width: 100%;
+}
+
+.hero-banner .avatar img:hover {
+    transform: scale(1.03);
+    transform: translateY(-10);
+}
+
+.css {
+    text-align: center;
+    color: #0089ffe0;
+}
+
+.html {
+    text-align: center;
+    color: #ff5e00d1;
+}
+
+.js {
+    text-align: center;
+    color: #ffbc00e0;
+}
+
+.habilidades-tittle {
+    text-align: center;
+}
+
+.skill-bar-box{
+    height:35px;
+    margin-bottom: 30px;
+    background: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.skill-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: rgb(13, 34, 218);
+    justify-content: flex-end;
+    color: #fff;
+    font-weight: 7000;
+    width: 0;
+    transition: 1s;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+
+.skill-bar-box.html:hover .skill-bar {
+    width: 35%;
+}
+
+.skill-bar-box.css:hover .skill-bar {
+    width: 25%; 
+}
+
+.skill-bar-box.js:hover .skill-bar {
+    width: 85%;
+}
+
+.skill-bar p {
+    margin: 0;
+    margin-right: 20px;
+    
 }
