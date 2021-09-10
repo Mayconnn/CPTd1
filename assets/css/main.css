@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbar .menu-item-div {
+    margin: 15px;
+    margin-right: 30px;
+}
+
+.navbar .menu-item-div p{
+    font-size: 24px;
+}
+.navbar .menu-item-div p:hover {
+    cursor: pointer;
+}
+.hero-banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.hero-banner .avatar img {
+    height: 300px;
+    width: 300px;
+    border-radius: 999px;
+    box-shadow: 0px 5px 14px -5px #000000c4;
+}
+
+.user-name h1{
+    text-align: center;
+}
+
+.container {
+    max-width: 1288px;
+    margin: 0px auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.skills {
+    margin: 25px;
+}
+
+.skills img {
+    width: 150px;
+    height: auto;
+}
+
+.skills .css, .skills .js {
+    margin-top: 50px;
+}
+
+.navbar .menu-item-div a{
+    text-decoration: none;
+    color: #000;
+}
