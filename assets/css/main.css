@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 body{
     font-family: 'roboto', sans-serif;
-    background-image: url('../img/fundo1.jpg'), url('../img/fundo2.png'); 
-    background-position: left top, right bottom;
-    background-repeat: no-repeat , no-repeat;
+    background-image: url('../img/fundo2.png'); 
+    background-position: right top;
+    background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 .fundo {
@@ -218,18 +219,34 @@ body{
 }
 
 .row-content {
-    height: 35px;
-    display: flex;
-    justify-content: center;
-}
-
-#name {
-    height: 29px;
-}
-
-
-#message {
-    display: flex;
     height: 50px;
-    width: 350px;
+    justify-content: center;
+    width: 300px;
+    border: 15px solid rgba(177, 103, 103, 0.568);
+    padding: 50px;
+    margin: 20px;
+    background-color: rgba(177, 103, 103, 0.568);
+    position: relative;
+}
+
+input#name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid #606060;
+    background-color: #ddd;
+}
+
+input#email{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    height: 25px;
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid #606060;
+    background-color: #ddd;
 }
