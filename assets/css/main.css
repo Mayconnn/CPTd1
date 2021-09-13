@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 body{
     font-family: 'roboto', sans-serif;
-    background-image: url('https://1.bp.blogspot.com/-TQzzQGdASPk/U5rlaIfQY5I/AAAAAAAALJs/XQNZ3Ia51oQ/s2560/the-witcher-3-wild-hunt-landscape-1920x1080.jpg')
+    background-image: url('../img/fundo1.jpg'), url('../img/fundo2.png'); 
+    background-position: left top, right bottom;
+    background-repeat: no-repeat , no-repeat;
+    background-size: 100%;
 }
 
 .fundo {
@@ -134,11 +137,6 @@ body{
 }
 
 
-.ico {
-    width: 280px;
-    height: 280px;
-}
-
 #insta-icone {
     width: 500px;
     height: 500px;
@@ -212,6 +210,7 @@ body{
 
 .icon:hover {
     cursor: pointer;
+    transform: scale(1.1, 1.1);
 }
 
 .row-item {
